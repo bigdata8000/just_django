@@ -19,6 +19,10 @@
 <p>
     The todo name is: {{ todo.name }} <br>
     The due date is {{ todo.due_date }}
+    <p>
+        <a href='/{{ todo.id }}/update/'>Update this</a> or
+        <a href='/{{ todo.id }}/delete/'>Delete this</a>
+    </p>
 </p>
 
 </body>
